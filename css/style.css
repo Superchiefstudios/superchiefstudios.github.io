@@ -1,44 +1,36 @@
-.top-buffer {
-  margin-top: 2%;
+html {
+  background-color: #000;
 }
 
-.bottom-buffer {
-  margin-bottom: 5%;
+.navbar-inverse {
+  background-color: #000;
+  background-color: rgba(0,0,0,0.7);
+  border-color: transparent;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
-.top-negbuffer {
-  margin-top: -20px;
+.main-container {
+  background-color: #000;
 }
 
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-  position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url('') no-repeat;
-    background-size: cover;
+.container-fluid {
+  background-color: #000;
 }
 
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+
+.carousel-caption {
+  z-index: 10;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 100%;
 }
 
-.overflow {
-  overflow-y: hidden;
+.row-fullbleed {
+  z-index: -5;
+  padding-top: : 0;
+  margin-top: 0;
+  margin-left: -10%;
+  margin-right: -10%;
 }
