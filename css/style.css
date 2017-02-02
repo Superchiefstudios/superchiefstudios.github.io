@@ -22,7 +22,7 @@ html {
 
 .carousel-caption {
   z-index: 10;
-  padding-top: 10%;
+  padding-top: 33px;
   padding-bottom: 10%;
   height: 100%;
 }
